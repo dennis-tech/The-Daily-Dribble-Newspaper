@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: #778da9;
+}
+.container{
+    color: #121212;
+    font-weight: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+}
+img{
+    width: 380px;
+}
+input{
+    margin-top: 20px;
+    text-align: center;    
+}
+img, input{
+    border: 3px solid #121212;
+}
+.btn{
+    background-color: #121212;
+    color: #fff;
+    margin-top: 5px;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #121212;
+}
+.btn, input{
+    font-weight: bold;
+    padding: 15px;
+}
+a, input{
+    color: inherit;
+}
+p{
+    font-style: italic;
+}
